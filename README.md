@@ -1,4 +1,4 @@
-## Atividade N2 - Serviço de Meteorologia
+### Atividade N2 - Serviço de Meteorologia
 
 Este projeto é um web service que usa a API OpenWeatherMap para fornecer informações sobre o clima de uma cidade e permite o envio de dados via POST para o processamento. Ele foi desenvolvido com o uso de Spring Boot e Docker.
 
