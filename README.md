@@ -1,14 +1,14 @@
-### Atividade N2 - Serviço de Meteorologia
+# Atividade N2 - Serviço de Meteorologia
 
 Este projeto é um web service que usa a API OpenWeatherMap para fornecer informações sobre o clima de uma cidade e permite o envio de dados via POST para o processamento. Ele foi desenvolvido com o uso de Spring Boot e Docker.
 
-# Requisitos
+## Requisitos
 
 * Java 17
 * Maven para gerenciar dependências
 * Docker para execução em container (opcional)
 
-# Como executar(Maven)
+## Como executar(Maven)
 
 1. Clonar o repositório:
 ```
@@ -27,9 +27,9 @@ mvn spring-boot:run
 docker build -t atividade_n2 .
 docker-compose up
 ```
-## Rotas Disponíveis
+# Rotas Disponíveis
 
-# Rota GET/api/clima
+## Rota GET/api/clima
 
 Esta rota consulta a API OpenWeatherMap para obter informações sobre um clima de uma cidade.
 
@@ -75,7 +75,7 @@ Resposta:
     "cod": 200
 }
 ```
-# Rota POST/api/processo
+## Rota POST/api/processo
 
 Esta rota recebe dados os para processamento
 
@@ -94,7 +94,7 @@ Resposta
     "mensagem": "Dados processados: Exemplo de dados enviados"
 }
 ```
-# Rota GET/api/sobre
+## Rota GET/api/sobre
 
 Meu nome e o nome do projeto
 
