@@ -22,7 +22,7 @@ private final String API_KEY = "coloque_sua_api_key";
 ```
 mvn spring-boot:run
 ```
-# Como executar(Docker)
+## Como executar(Docker)
 ```
 docker build -t atividade_n2 .
 docker-compose up
